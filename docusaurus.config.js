@@ -324,6 +324,10 @@ const config = {
             ],
           },
           {
+            label: 'Licensing',
+            to: '/licensing',
+          },
+          {
             label: 'Support',
             to: '/contact',
           },

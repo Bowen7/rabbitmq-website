@@ -134,6 +134,12 @@ html[data-theme='dark'] .heroCta .release_notes_link {
   font-style: italic;
 }
 
+.strategic_buttons {
+  display: flex;
+  gap: .25em;
+  flex-wrap: wrap;
+}
+
 .usecases_heading, .license, .partner {
   background-color: var(--ifm-color-primary-contrast-background);
 
@@ -155,6 +161,10 @@ html[data-theme='dark'] .heroCta .release_notes_link {
   display: block;
   margin-top: var(--ifm-heading-margin-top);
   margin-bottom: var(--ifm-heading-margin-bottom);
+}
+
+.license .container > :last-child {
+  margin-bottom: 0;
 }
 
 .testimonies .flex_columns {
@@ -225,4 +235,11 @@ html[data-theme='dark'] .blockquote blockquote:after {
   z-index: 1;
   margin-left:130px;
   padding-left:12px;
+}
+
+.contact_buttons {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  padding: 1em 0;
 }

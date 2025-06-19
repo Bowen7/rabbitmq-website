@@ -39,7 +39,7 @@ export default function Support() {
                 <Heading as="h2">Commercial</Heading>
                 <p>Tanzu RabbitMQ is developed by VMware Tanzu, which provides exclusive enterprise features and commercial support. This includes 24/7  experts with defined SLAs and longer term support for the latest versions.</p>
                 <p>
-                  <a href="#tanzu-rabbitmq" class="anchor">Learn More</a> |&nbsp;
+                  <a href="#tanzu-rabbitmq">Learn More</a> |&nbsp;
                   <a href="mailto:contact-tanzu-data.pdl@broadcom.com">Contact VMware Tanzu</a>
                 </p>
               </section>
@@ -110,15 +110,7 @@ export default function Support() {
 
         <div id="consulting" className={styles.partners}>
           <div className={styles.container}>
-            <Heading as="h1">Consulting & Training Partners</Heading>
-            <Heading as="h4">VMware Tanzu’s trusted partners are here to help you in your local market and provide high touch professional services.</Heading>
-            <div>
-              <Link className="button button--secondary" to="#AMER">Americas</Link>&nbsp;
-              <Link className="button button--secondary" to="#APac">Asia Pacific</Link>&nbsp;
-              <Link className="button button--secondary" to="#EMEA">EMEA</Link>
-            </div>
-            <br></br>
-            <Heading id="AMER" as="h2">Americas</Heading>
+            <Heading as="h1">Strategic Partner</Heading>
             <div className={styles.partner}>
               <Heading as="h3">AceMQ</Heading>
               <p className={styles.partner_region}>Offices in: 🇺🇸USA &mdash; Supporting organizations worldwide</p>
@@ -134,11 +126,23 @@ export default function Support() {
                 <li>Training & Mentorship &mdash; Hands-on coaching, workshops, and personalized enablement for technical teams</li>
                 <li>Optimization & Scaling &mdash; Advanced tuning for throughput, message durability, and resource efficiency</li>
               </ul>
-              <div>
-                <Link to="https://acemq.com/rabbitmq/">Learn More</Link> |&nbsp;
-                <Link to="https://acemq.com/contact-us/">Get In Touch</Link>
+              <div className={styles.strategic_buttons}>
+                <Link className="button button--primary" rel="noopener" to="https://acemq.com/rabbitmq/licensing/">Licensing</Link>
+                <Link className="button button--primary" rel="noopener" to="https://acemq.com/rabbitmq/">Consulting</Link>
+                <Link className="button button--primary" rel="noopener" to="https://acemq.com/support/">Support</Link>
+                <Link className="button button--primary" rel="noopener" to="https://acemq.com/rabbitmq/">Emergency Break/Fix</Link>
+                <Link className="button button--primary" rel="noopener" to="https://acemq.com/contact-us/">Contact Us</Link>
               </div>
             </div>
+            <Heading as="h1">Consulting & Training Partners</Heading>
+            <Heading as="h4">VMware Tanzu’s trusted partners are here to help you in your local market and provide high touch professional services.</Heading>
+            <div>
+              <Link className="button button--secondary" to="#AMER">Americas</Link>&nbsp;
+              <Link className="button button--secondary" to="#APac">Asia Pacific</Link>&nbsp;
+              <Link className="button button--secondary" to="#EMEA">EMEA</Link>
+            </div>
+            <br></br>
+            <Heading id="AMER" as="h2">Americas</Heading>
             <div className={styles.partner}>
               <Heading as="h3">Carahsoft</Heading>
               <p className={styles.partner_region}>Offices in: 🇺🇸USA &mdash; Serving public sector & other highly regulated industries in Canada & USA</p>
