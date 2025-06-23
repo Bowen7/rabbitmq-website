@@ -16,11 +16,7 @@ export default function Licensing() {
         <div className={styles.hero}>
           <div className={[styles.container, styles.heroInner].join(' ')}>
             <div>
-              <Heading as="h1">
-                Tanzu RabbitMQ
-								<br />
-								Licensing
-							</Heading>
+              <Heading as="h1">Tanzu RabbitMQ<br />Licensing</Heading>
             </div>
           </div>
         </div>
@@ -41,7 +37,7 @@ export default function Licensing() {
                 <p>Engage with our partner for licensing and consultants who have localized expertise and specialize in tailoring RabbitMQ solutions to the specific needs of your organization.</p>
               </section>
             </div>
-						<Link className="button button--primary" to="mailto:contact-tanzu-data.pdl@broadcom.com">GET QUOTE</Link>
+            <Link className="button button--primary" to="mailto:contact-tanzu-data.pdl@broadcom.com">GET QUOTE</Link>
           </div>
         </div>
 
@@ -113,15 +109,15 @@ export default function Licensing() {
                 <li><strong>Cost-Effective</strong>: Traditional RabbitMQ licensing models often require businesses to pay for features they don’t need. AceMQ's approach ensures that you pay only for what you use, helping you optimize your costs while still getting the robust features and support your organization requires.</li>
                 <li><strong>Expert Support</strong>: With AceMQ, you gain access to a team of RabbitMQ experts who can help you troubleshoot, optimize, and scale your RabbitMQ deployment. Whether you are transitioning from an open-source version or scaling an enterprise deployment, our team is here to provide ongoing support and guidance.</li>
                 <li><strong>Managed Services</strong>: If you prefer not to handle the day-to-day management of your RabbitMQ environment, AceMQ offers fully managed RabbitMQ services. We handle everything from installation and configuration to ongoing monitoring and maintenance.</li>
-								<li><strong>Advanced Security and Compliance</strong>: AceMQ takes security seriously. We offer customized security features, including encryption and advanced access control, to meet the most stringent compliance standards.</li>
-								<li><strong>Cloud-Native & Kubernetes Integration</strong>: Our licensing models are flexible enough to accommodate cloud-based deployments, including those running on Kubernetes, Docker, or other containerized environments. This ensures that your RabbitMQ environment can scale seamlessly with your cloud infrastructure.</li>
+                <li><strong>Advanced Security and Compliance</strong>: AceMQ takes security seriously. We offer customized security features, including encryption and advanced access control, to meet the most stringent compliance standards.</li>
+                <li><strong>Cloud-Native & Kubernetes Integration</strong>: Our licensing models are flexible enough to accommodate cloud-based deployments, including those running on Kubernetes, Docker, or other containerized environments. This ensures that your RabbitMQ environment can scale seamlessly with your cloud infrastructure.</li>
               </ul>
             </div>
             <Heading as="h4">VMware Tanzu's trusted partners are here to help you in your local market and provide high touch professional services.</Heading>
-						<div className={styles.contact_buttons}>
-							<Link className="button button--primary" to="mailto:contact-tanzu-data.pdl@broadcom.com">Contact Broadcom </Link>
-							<Link className="button button--primary" to="mailto:contact-tanzu-data.pdl@broadcom.com">Contact AceMQ</Link>
-						</div>
+            <div className={styles.contact_buttons}>
+              <Link className="button button--primary" to="mailto:contact-tanzu-data.pdl@broadcom.com">Contact Broadcom </Link>
+              <Link className="button button--primary" to="mailto:contact-tanzu-data.pdl@broadcom.com">Contact AceMQ</Link>
+            </div>
           </div>
         </div>
 
