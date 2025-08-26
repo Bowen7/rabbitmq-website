@@ -2,8 +2,16 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import Heading from '@theme/Heading';
+import SupportTimelines from '@site/src/components/SupportTimelines';
 
 import styles from './index.module.css';
+
+const features = [
+  {
+    feature: <><strong>create</strong> another new section but change the title to: “Support Timelines”</>,
+    benefit: 'create another new section but change the title to: “Support Timelines”'
+  }
+]
 
 export default function Licensing() {
   const { siteConfig } = useDocusaurusContext();
@@ -28,7 +36,7 @@ export default function Licensing() {
             </div>
           </div>
         </div>
-        <div className={styles.services}>
+        <div className={styles.licensing_section}>
           <div className={styles.container}>
             <Heading as="h1">VMware Tanzu RabbitMQ</Heading>
             <p>
@@ -109,6 +117,37 @@ export default function Licensing() {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+        <div className={styles.licensing_section} id="comparison">
+          <div className={styles.container}>
+            <Heading as="h1">Tanzu RabbitMQ vs Open Source</Heading>
+            <table className={styles.comparison_table}>
+              <thead>
+                <tr>
+                  <th className={styles.text_left}>Features</th>
+                  <th>Open Source RabbitMQ</th>
+                  <th>Tanzu RabbitMQ</th>
+                  <th className={styles.text_left}>Benefits</th>
+                </tr>
+              </thead>
+              <tbody>
+                {features.map(({feature, benefit}) => (
+                  <tr key={feature}>
+                    <td>{feature}</td>
+                    <td className={styles.unsupported}>❌</td>
+                    <td className={styles.supported}>✅</td>
+                    <td>{benefit}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div className={styles.licensing_section}>
+          <div className={styles.container}>
+            <Heading as="h1">Support Timelines</Heading>
+            <SupportTimelines />
           </div>
         </div>
       </main>
